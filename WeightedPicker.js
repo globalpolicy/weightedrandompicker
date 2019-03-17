@@ -24,6 +24,8 @@ function WeightedPick(populationList, weightList) {
     return populationList[largestScaledWeightIndex];
 }
 
+
+// example usage
 var popList = ['C#', 'VB6', 'Java', 'ASM', 'Delphi'];
 var weightList = [50, 60, 40, 20, 25];
 var result = {};
